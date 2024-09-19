@@ -48,7 +48,7 @@ Esta API foi desenvolvida com Node.js, Express e MongoDB, oferecendo funcionalid
 
 ### Estruturas de Dados
 
-- **Usuário**: Contém informações como e-mail, senha, status de verificação, e imagem de perfil.
+- **Usuário**: Contém informações como e-mail, senha (armazenada em formato de hash utilizando bcrypt para garantir a segurança), status de verificação, e imagem de perfil.
 - **Mensagens**: Armazena as mensagens enviadas entre usuários, contendo remetente, destinatário, mensagem e timestamp.
 - **Notificações**: Registra notificações para usuários offline, que serão enviadas quando se conectarem novamente.
 
